@@ -14,11 +14,14 @@ body {
 	}
 
 
-ul li {text-decoration:none;
-		text-align: center;
+ul li {
+	text-decoration:none;
+	text-align: center;
 	}
 	
 h1 {text-align:center;
+	}
+h2  {text-align:center;
 	}
 
 ul {list-style: none outside none;
@@ -363,10 +366,108 @@ two sections to make adding additional visas easier*/
 #visas2 #saudi a:active {
     background: url("graphics/visas2.png") no-repeat scroll 5px -134px transparent;
 	}
+	
+/*Congo */
+#visas2 #congo a:link, #visas2 #congo .photos a:visited {
+  	height: 200px;
+    left: 188px;
+    top: 1px;
+    width: 192px;
+	}
+
+#visas2 #congo a:hover, #visas2 #congo a:focus {
+    background: url("graphics/visas2.png")  no-repeat scroll -182px -202px transparent;
+	}
+
+#visas2 #congo a:active {
+    background: url("graphics/visas2.png") no-repeat scroll -182px -202px transparent;
+    }
+    
+/*Venezuala */
+#visas2 #vene a:link, #visas2 #vene .photos a:visited {
+    height: 129px;
+    left: 404px;
+    top: -1px;
+    width: 185px;
+	}
+
+#visas2 #vene a:hover, #visas2 #vene a:focus {
+    background: url("graphics/visas2.png")  no-repeat scroll -398px -129px transparent;
+	}
+
+#visas2 #vene a:active {
+    background: url("graphics/visas2.png") no-repeat scroll -301px -151px transparent;
+    }
+	
 
 #visas li {
 	display: inline;
 	}
+
+
+
+#visas3 {
+    display: inline;
+    float: left;
+    /*height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+#visas3 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas4 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas4 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas5 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas5 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas6 {
+    display: inline;
+    float: left;
+    height: 204px;
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas6 > li {
+    display: inline;
+	padding: 2em;
+}
 		
 	
 /*map page */
