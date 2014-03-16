@@ -21,20 +21,20 @@
 <?php include("header.php"); ?>
 <div class="body">
 <div class="left">
-<p><img src="" alt="Qatar" title="UAE" id="mainphoto" /> </p>
-<p>Location: Qatar<br />
+<p><img src="" alt="Malaysia" title="Malaysia" id="mainphoto" /> </p>
+<p>Location: Malaysia<br />
 Date Visited: 2014</p>
 </div>
 <div class="right">
-<h1 id="top">Qatar</h1>
-<p id="turnpage"><a href="uae.php" title="turn page">&lt; Previous Album</a> 
-<span id="nextpage"><a href="malaysia.php" title="go to next album">Next Album &gt;</a></span>
+<h1 id="top">Malaysia</h1>
+<p id="turnpage"><a href="qatar.php" title="turn page">&lt; Previous Album</a> 
+<span id="nextpage"><a href="pennsylvania.php" title="go to next album">Next Album &gt;</a></span>
 </p>
 <ul class="gallery">
 <?php 
-	for ($i=1; $i <= 11; $i++):
+	for ($i=1; $i <= 67; $i++):
 ?>
-<li><a class='gallery1' href='photos/Qatar/qatar<?=$i?>.jpg' title=""><img src="photos/Qatar/qatar<?=$i?>thumb.jpg"  alt="Qatar" /><br/>Qatar</a></li>
+<li><a class='gallery1' href='photos/Malaysia/mala<?=$i?>.jpg' title=""><img src="photos/Malaysia/mala<?=$i?>thumb.jpg"  alt="Malaysia" /><br/>Malaysia</a></li>
 
 
 <?php endfor; ?>
@@ -43,8 +43,8 @@ Date Visited: 2014</p>
 </ul>
 
 <hr class="clearme2"/>
-<p id="turnpage"><a href="uae.php" title="turn page">&lt; Previous Album</a> 
-<span id="nextpage"><a href="malaysia.php" title="go to next album">Next Album &gt;</a></span>
+<p id="turnpage"><a href="qatar.php" title="turn page">&lt; Previous Album</a> 
+<span id="nextpage"><a href="pennsylvania.php" title="go to next album">Next Album &gt;</a></span>
 </p>
 <p><a href="#top" title="back to top">Back to Top</a></p>
 </div>

@@ -28,7 +28,7 @@ Date Visited: 2013</p>
 <div class="right">
 <h1 id="top">Algeria</h1>
 <p id="turnpage"><a href="canada.php" title="turn page">&lt; Previous Album</a> 
-<span id="nextpage"><a href="pennsylvania.php" title="go to next album">Next Album &gt;</a></span>
+<span id="nextpage"><a href="uae.php" title="go to next album">Next Album &gt;</a></span>
 </p>
 <ul class="gallery">
 <?php 
@@ -44,7 +44,7 @@ Date Visited: 2013</p>
 
 <hr class="clearme2"/>
 <p id="turnpage"><a href="canada.php" title="turn page">&lt; Previous Album</a> 
-<span id="nextpage"><a href="pennsylvania.php" title="go to next album">Next Album &gt;</a></span>
+<span id="nextpage"><a href="uae.php" title="go to next album">Next Album &gt;</a></span>
 </p>
 <p><a href="#top" title="back to top">Back to Top</a></p>
 </div>

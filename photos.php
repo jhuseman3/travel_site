@@ -37,11 +37,17 @@ Click on the visas to see some of Carl's photos from that location. </p>
 <li id="europe"><a href="europe.php" title="Photos from Europe">Europe</a></li>
 <li id="la"><a href="canada.php" title="Photos from Canada">Canada</a></li>
 </ul>
+
 <ul id="visas5">
 <li id="algeria"><a href="algeria.php" title="Photos from Algeria">Algeria</a></li>
 <li id="uae"><a href="uae.php" title="Photos from United Arab Emirates">United Arab Emirates</a></li>
 <li id="qatar"><a href="qatar.php" title="Photos from Qatar">Qatar</a></li>
+</ul>
 
+<ul id="visas7">
+<li id="malaysia"><a href="malaysia.php" title="Photos from Malaysia">Malaysia</a></li>
+<li id=""></li>
+<li id=""></li>
 </ul>
 
 </div>

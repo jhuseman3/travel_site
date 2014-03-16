@@ -13,7 +13,17 @@
       ['Corpus Christi, TX, USA', 27.830575, -97.395401, 11],
       ['Red Deer, Alberta, Canada', 52.267527, -113.811207, 12],
       ['Pointe Noire, Congo', -4.77867, 11.86364, 13],
-      ['Songkhla Thailand', 7.1908, 100.5986, 14]
+      ['Songkhla, Thailand', 7.1908, 100.5986, 14],
+      ['Port-Gentil, Gabon', -0.716667, 8.783333, 15],
+      ['Baku, Azerbaijan', 40.395278, 49.882222, 16],
+      ['Aktau, Kazakhstan', 43.65, 51.15, 17],
+      ['Kuala Lumpur, Malaysia', 3.1475, 101.693333, 18],
+      ['Dubai, United Arab Emirates', 25.25, 55.3, 19],
+      ['Doha, Qatar', 25.286667, 51.533333, 20],
+      ['Emmen, Netherlands', 52.783333, 6.9, 21],
+      ['Celle, Germany', 52.625556, 10.0825, 22],
+      ['Ortona, Italy', 42.35, 14.4, 23]
+      
       
     ];
     

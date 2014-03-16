@@ -453,6 +453,24 @@ two sections to make adding additional visas easier*/
 	padding: 2em;
 }
 
+#visas7 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas7 > li {
+    display: inline;
+	padding: 2em;
+}
+
+
+
 #visas6 {
     display: inline;
     float: left;
