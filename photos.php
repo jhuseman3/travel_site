@@ -39,6 +39,8 @@ Click on the visas to see some of Carl's photos from that location. </p>
 </ul>
 <ul id="visas5">
 <li id="algeria"><a href="algeria.php" title="Photos from Algeria">Algeria</a></li>
+<li id="uae"><a href="uae.php" title="Photos from United Arab Emirates">United Arab Emirates</a></li>
+<li id="qatar"><a href="qatar.php" title="Photos from Qatar">Qatar</a></li>
 
 </ul>
 

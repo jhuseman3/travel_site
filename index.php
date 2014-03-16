@@ -26,7 +26,7 @@ $('#mainphoto').mouseout(function(e) {
 <div class="left">
 <p><img src="photos/Carlcoffee.jpg" alt="Carl" title="Carl" id="mainphoto" /></p>
 <p id="introtext">Name: Carl Calhoun <br />
-Current Location: Songkhla, Thailand </p>
+Recent Trip: Doha, Qatar </p>
 </div>
 <div class="right">
 <h1>Around the World</h1>
