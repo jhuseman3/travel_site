@@ -1,0 +1,511 @@
+/*css for Carl's Travel Site
+Created by Esther Weeks May 2012
+Colors used: Graphics -blue:#5F9FDD  red:#A0222B  brown:#3B3719  background-brown:#BEB691 yellow:#D6B429 border-brown:#3B3719 text:#3B3719
+*/
+
+
+/*General Rules*/
+body {
+		background:#BEB691;
+		font-family: "Courier New", monospace;
+		background: url("graphics/background3.png") repeat scroll center top;
+    	border: none;
+    	padding: .5em 1em;
+	}
+
+
+ul li {
+	text-decoration:none;
+	text-align: center;
+	}
+	
+h1 {text-align:center;
+	}
+h2  {text-align:center;
+	}
+
+ul {list-style: none outside none;
+	padding: 0; 
+	margin: 0;
+	}
+	
+a:link {text-decoration: none;
+		color: #A0222B;
+		font-weight: bold;
+	}
+
+a:hover {color:#5F9FDD;
+	}
+
+a:visited {color: #A0222B;
+		font-weight: bold;
+	}
+
+/* The #main includes all main content, allows for border-look*/
+#main {background:url("graphics/background.png") repeat scroll center top;
+		padding: 1em;
+    	border: .5em solid #3B3719;
+    	color:#3B3719;
+		}
+
+
+/*Site logo and navigation */
+#logo a:link, #logo a:visited {
+    background: url("graphics/travellogo2.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 200px;
+    text-indent: -9000px;
+    width: 270px;
+	}
+
+.nav {
+    display: inline;
+    position: relative;
+    float: left;
+    background: url("graphics/nav3.png") no-repeat;
+  	height: 136px;
+    top: 2em;
+    width: 600px;
+	}
+
+.nav li {
+    display: inline;
+	}
+
+.nav li a:link, .nav li a:visited {
+    text-indent: -9000px;
+    top: 0;
+    position: absolute;
+    height:95px;
+    overflow: hidden;
+	}
+/*Image replacement for photos icon/link */
+.nav .photos a:link, .nav .photos a:visited {
+	height: 132px;
+	left: -5px;
+    top: 1px;
+    width: 155px;
+	}
+
+.nav .photos a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat 5px -134px;
+	}
+
+.nav .photos a:active {
+	background: url("graphics/nav3.png") no-repeat 5px -134px;
+	}
+
+/*Creates "you are here" effect for main photo page */
+#photosmain .nav .photos a {
+	background: url("graphics/nav3.png") no-repeat 5px -268px;
+	}
+#photosmain .nav .photos a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat 5px -134px;
+	}
+
+/*Creates "you are here" effect for additional photo pages */
+#photos .nav .photos a {
+	background: url("graphics/nav3.png") no-repeat 5px -268px;
+	}
+#photos .nav .photos a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat 5px -134px;
+	}
+
+/*Image replacement for map icon/link */
+.nav .map a:link, .nav .map a:visited {
+    height: 132px;
+    left: 143px;
+    top: 2px;
+    width: 130px;
+	}
+
+.nav .map a:hover, .nav .map a:focus {
+    background: url("graphics/nav3.png") no-repeat scroll -142px -136px transparent;
+	}
+
+.nav .map a:active {
+    background: url("graphics/nav3.png") no-repeat scroll -142px -136px transparent;
+	}
+
+/*Creates "you are here" effect for map page*/
+
+#map .nav .map a {
+	background: url("graphics/nav3.png") no-repeat -142px -268px;
+	}
+	
+#map .nav .map a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat -142px -136px;
+	}
+
+/*Image replacement for notes icon/link */
+.nav .notes a:link, .nav .notes a:visited {
+	left: 302px;
+    top: 17px;
+    width: 126px;
+    height: 132px;
+	}
+
+.nav .notes a:hover, .nav .notes a:focus {
+	background: url("graphics/nav3.png") no-repeat scroll -301px -151px transparent;
+	}
+
+.nav .notes a:active {
+    background: url("graphics/nav3.png") no-repeat scroll -301px -151px transparent;
+	}
+
+/*Creates "you are here" effect for notes page */
+#notes .nav .notes a {
+	background: url("graphics/nav3.png") no-repeat -301px -283px;
+	}
+	
+#notes .nav .notes a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat -301px -151px;
+	}
+
+
+/*Image replacement for calendar icon/link */
+.nav .calendar a:link, .nav .calendar a:visited {
+	 height: 132px;
+    left: 435px;
+    top: 2px;
+    width: 149px;
+	}
+
+.nav .calendar a:hover, .nav .calendar a:focus {
+	background:url("graphics/nav3.png") no-repeat -435px -134px;
+	}
+
+.nav .calendar a:active {
+	background: url("graphics/nav3.png") no-repeat -435px -134px;
+	}
+
+/*Creates "you are here" effect for calendar page */
+#calendar .nav .calendar a {
+	background: url("graphics/nav3.png") no-repeat -435px -268px;
+	}
+
+#calendar .nav .calendar a:hover, .nav .photos a:focus {
+	background:url("graphics/nav3.png") no-repeat -435px -134px;
+	}
+/*End Navigation */
+
+
+/*General positioning/style within body */
+
+.clearme {
+    clear: both;
+    padding: 1em;
+    border: none;
+    background: url("graphics/clear.png") repeat-x;
+	}
+
+
+.clearme2 {
+    clear: both;
+    padding: 1em;
+    border: none;
+	}
+
+.left {
+	float:left;
+	width: 305px;
+	}
+		
+.right {
+    margin-left: 22em;
+    margin-right: 5em;
+    }
+    
+    #mainphoto {
+	border: .5em solid #3B3719;
+    margin-top: -1em
+	}
+
+/*footer */
+
+#footer {
+	clear:both;
+	}
+		
+#footer ul li {
+	display: inline;
+	padding: 1em;
+	}
+
+/*styles specific to pages*/
+
+/*photos pages*/
+#photos #mainphoto{
+	border: none;
+	}
+
+.gallery li img {
+	border: .5em solid #3B3719;
+	}
+	
+.gallery li {
+	float: left;
+	margin: .5em;
+	}
+
+#nextpage {
+    float: right;
+	}
+
+#nextpage a:hover, #turnpage a:hover {
+	color:#5F9FDD;
+	}
+		
+/*styles for visas */
+/*styles to set up image replacement and links with visas images. Visas1 is first line, visas2 is second. Divided into 
+two sections to make adding additional visas easier*/
+
+/*First line*/
+#visas1 li a:link, #visas1 li a:visited {
+    height: 95px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9000px;
+    top: 0;
+	}
+
+#visas1 {
+    background: url("graphics/visas.png") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 131px;
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 613px;
+	}
+
+/*Oman*/
+
+#visas1 #oman a:link, #visas1 #oman .photos a:visited {
+    height: 132px;
+    left: -5px;
+    top: 1px;
+    width: 195px;
+	}
+
+#visas1 #oman a:hover, #visas1 #oman a:focus {
+    background: url("graphics/visas.png") no-repeat scroll 5px -134px transparent;
+	}
+
+#visas1 #oman a:active {
+    background: url("graphics/visas.png") no-repeat scroll 5px -134px transparent;
+	}
+
+/*Australia */
+
+#visas1 #australia a:link, #visas1 #australia .photos a:visited {
+    height: 132px;
+    left: 197px;
+    top: 2px;
+    width: 192px;
+	}
+
+#visas1 #australia a:hover, #visas1 #australia a:focus {
+    background: url("graphics/visas.png") no-repeat scroll -198px -135px transparent;
+	}
+
+#visas1 #australia a:active {
+    background: url("graphics/visas.png") no-repeat scroll -142px -136px transparent;
+	}
+
+/*New Zealand*/
+#visas1 #newze a:link, #visas1 #newze .photos a:visited {
+    height: 129px;
+    left: 404px;
+    top: -1px;
+    width: 185px;
+	}
+
+#visas1 #newze a:hover, #visas1 #newze a:focus {
+    background: url("graphics/visas.png") no-repeat scroll -398px -129px transparent;
+	}
+
+#visas1 #newze a:active {
+    background: url("graphics/visas.png") no-repeat scroll -301px -151px transparent;
+	}
+
+/*Second line*/
+
+#visas2 li a:link, #visas2 li a:visited {
+    height: 95px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9000px;
+    top: 0;
+	}
+
+#visas2 {
+    background: url("graphics/visas2.png") no-repeat scroll 0 0 transparent;
+    display: inline;
+    float: left;
+    height: 204px;
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+/*Saudi */
+#visas2 #saudi a:link, #visas2 #saudi .photos a:visited {
+    height: 213px;
+    left: -5px;
+    top: 1px;
+    width: 159px;
+	}
+
+#visas2 #saudi a:hover, #visas2 #saudi a:focus {
+    background: url("graphics/visas2.png") no-repeat scroll 5px -202px transparent;
+	}
+
+#visas2 #saudi a:active {
+    background: url("graphics/visas2.png") no-repeat scroll 5px -134px transparent;
+	}
+	
+/*Congo */
+#visas2 #congo a:link, #visas2 #congo .photos a:visited {
+  	height: 200px;
+    left: 188px;
+    top: 1px;
+    width: 192px;
+	}
+
+#visas2 #congo a:hover, #visas2 #congo a:focus {
+    background: url("graphics/visas2.png")  no-repeat scroll -182px -202px transparent;
+	}
+
+#visas2 #congo a:active {
+    background: url("graphics/visas2.png") no-repeat scroll -182px -202px transparent;
+    }
+    
+/*Venezuala */
+#visas2 #vene a:link, #visas2 #vene .photos a:visited {
+    height: 129px;
+    left: 404px;
+    top: -1px;
+    width: 185px;
+	}
+
+#visas2 #vene a:hover, #visas2 #vene a:focus {
+    background: url("graphics/visas2.png")  no-repeat scroll -398px -129px transparent;
+	}
+
+#visas2 #vene a:active {
+    background: url("graphics/visas2.png") no-repeat scroll -301px -151px transparent;
+    }
+	
+
+#visas li {
+	display: inline;
+	}
+
+
+
+#visas3 {
+    display: inline;
+    float: left;
+    /*height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+#visas3 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas4 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas4 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas5 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas5 > li {
+    display: inline;
+	padding: 2em;
+}
+
+#visas7 {
+    display: inline;
+    float: left;
+   /* height: 204px;*/
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas7 > li {
+    display: inline;
+	padding: 2em;
+}
+
+
+
+#visas6 {
+    display: inline;
+    float: left;
+    height: 204px;
+    margin: 1.5em;
+    position: relative;
+    top: 2em;
+    width: 602px;
+	}
+
+
+#visas6 > li {
+    display: inline;
+	padding: 2em;
+}
+		
+	
+/*map page */
+#map_canvas {
+	width: 100%; 
+	height: 500px
+	}
+
+#map .right {
+    float: none;
+    margin-left: 7%;
+	}
+
+/*404 page */
+#error #mainphoto {
+    width: 80%;
+    margin-left: 10%;
+	}
+
+.small{
+	font-size: small;
+}
+
