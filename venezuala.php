@@ -7,10 +7,10 @@
 <script type="text/javascript" src="js/jquery-1.7.1.min.js"> </script>
 <script type="text/javascript" src="colorbox/jquery.colorbox-min.js"></script>
 <script type="text/javascript">
-            jQuery(document).ready(function () {
-                jQuery('a.gallery1').colorbox({ opacity:0.5 , rel:'group1', transition:"none" });
-                $(".gallery2").colorbox({rel:'group2'});
-                 $(".gallery3").colorbox({rel:'group3'});
+            ().ready( () {
+                ('a.gallery1').colorbox({ opacity:0.5 , rel:'group1', transition:"none" });
+                (".gallery2").colorbox({rel:'group2'});
+                 (".gallery3").colorbox({rel:'group3'});
                 });
 </script>
 
@@ -18,7 +18,7 @@
 </head>
 <body id="photos">
 <div id="main">
-<?php include("header.php"); ?>
+<?php ("header.php"); ?>
 <div class="body">
 <div class="left">
 <p><img src="" alt="Venezuala" title="Visa from Venezuala" id="mainphoto" /> </p>
@@ -71,9 +71,9 @@ Date Visited: May, 2013</p>
 </div>
 
 
-<hr class="clearme"/>
 
-<?php include("footer.php"); ?>
+
+<?php ("footer.php"); ?>
 </div>
 </div>
 </body>
