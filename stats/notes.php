@@ -7,7 +7,7 @@
 </head>
 <body id="notes">
 <div id="main">
-<?php include("header.php"); ?>
+<?php ("header.php"); ?>
 <div class="body">
 <div class="left">
 
@@ -20,7 +20,7 @@
 
 <hr class="clearme"/>
 
-<?php include("footer.php"); ?>
+<?php ("footer.php"); ?>
 </div>
 </div>
 </body>
